@@ -1,2 +1,8 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script lang="ts">
+	import ImageCarousel from '$lib/ImageCarousel.svelte';
+	let name = 'Chedy';
+</script>
+
+<h1 class="p-16 text-3xl">{name}'s Pics</h1>
+<ImageCarousel />
+<p></p>
